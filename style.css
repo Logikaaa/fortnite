@@ -1,0 +1,149 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+header {
+  background-color: #8ab4f8;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+  color: #ffffff;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  color: #3b3bff;
+  margin-top: 40px;
+}
+
+.description {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.description ul {
+  padding-left: 20px;
+}
+
+.gallery-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery img {
+  max-width: 500px;
+  height: auto;
+  border: 5px solid red;
+  border-radius: 20px;
+  opacity: 0.7;
+  transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* --- Stylish Footer --- */
+footer {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  padding: 40px 20px 10px;
+  font-size: 16px;
+  margin-top: 50px;
+  border-radius: 20px 20px 0 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-logo h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-social .social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footer-social img {
+  width: 32px;
+  height: 32px;
+  transition: 0.3s;
+}
+
+.footer-social img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.5);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #999;
+}
